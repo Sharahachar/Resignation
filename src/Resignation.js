@@ -99,7 +99,7 @@ function Resignation() {
       {!showStatusPage ? (
         <div className="form-container12">
           <div className="status-check-icon" onClick={handleStatusCheck}>
-          <SiStatuspage />
+            <SiStatuspage />
           </div>
           <h2 className='thg'>Resignation Application Form</h2>
           
