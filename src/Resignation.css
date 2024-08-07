@@ -1,0 +1,122 @@
+/* Resignation.css */
+.resignation-container1 {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.904);
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Needed for positioning status check icon */
+}
+
+.form-container12, .status-page {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.849);
+  border-radius: 8px;
+}
+
+.thg {
+  margin-left: 0%;
+}
+
+.employee-details {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-left: 2%; 
+}
+
+textarea#reasonForLeaving {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button.button {
+  display: inline-block;
+  padding: 5px 5px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+button.button-submit {
+  margin-top: 30px;
+  background-color: #4369e7;
+  flex: 1; /* Makes button fill available space */
+}
+
+button.button-back {
+  margin-top: 30px;
+  background-color: transparent; /* Makes the background transparent */
+  color: #e6e9ec; /* Text color for visibility */
+  border: none; /* Removes the border */
+  font-size: 25px;
+  flex: 1; /* Makes button fill available space */
+}
+
+button.button-discuss {
+  margin-top: 30px;
+  background-color: yellowgreen;
+  flex: 1; 
+}
+
+button.button:hover {
+  opacity: 0.9;
+}
+
+.status-check-icon {
+  position: absolute;
+  margin-top: 15px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #dde1e6;
+  margin-right: 35%;
+}
+
+.status-check-icon:hover {
+  color: #0056b3;
+}
+
+.form-container h2, .status-page h2 {
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.employee-details {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.employee-details p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.discuss-container {
+  margin-top: 10px;
+}
